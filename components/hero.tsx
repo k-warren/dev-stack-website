@@ -32,7 +32,7 @@ export function Hero() {
                 maxWidth: 600,
               }}
             >
-              Maya, Devon, and Sora are a small, senior team. Design,
+              Oliver, Kieran, and Jayden are a small, senior team. Design,
               engineering, and strategy under one roof — shipping fast,
               polished sites for founders and growing brands.
             </Text>

@@ -30,7 +30,7 @@ export function SiteHeader() {
         >
           <Stack direction="horizontal" align="center" gap="condensed">
             <CodeSquareIcon size={24} />
-            <Text style={{ fontWeight: 600, fontSize: 18 }}>Trio Studio</Text>
+            <Text style={{ fontWeight: 600, fontSize: 18 }}>Dev Stack</Text>
           </Stack>
 
           <Stack

@@ -20,11 +20,11 @@ export function SiteFooter() {
         >
           <Stack direction="horizontal" align="center" gap="condensed">
             <CodeSquareIcon size={20} />
-            <Text style={{ fontWeight: 600 }}>Trio Studio</Text>
+            <Text style={{ fontWeight: 600 }}>Dev Stack</Text>
           </Stack>
           <Text size="small" style={{ color: 'var(--fgColor-muted)' }}>
-            © {new Date().getFullYear()} Trio Studio. Built by Maya, Devon &
-            Sora.
+            © {new Date().getFullYear()} Dev Stack. Built by Oliver, Kieran &
+            Jayden.
           </Text>
         </Stack>
       </div>

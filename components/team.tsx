@@ -12,19 +12,19 @@ type Member = {
 
 const members: Member[] = [
   {
-    name: 'Maya Chen',
+    name: 'Oliver',
     role: 'Design & Brand',
     bio: 'Leads visual direction and design systems. Ten years crafting interfaces for startups and studios.',
     image: '/team/maya.png',
   },
   {
-    name: 'Devon Reyes',
+    name: 'Kieran',
     role: 'Engineering',
     bio: 'Builds fast, accessible front-ends and the backends behind them. React, Next.js, and edge-everything.',
     image: '/team/devon.png',
   },
   {
-    name: 'Sora Tanaka',
+    name: 'Jayden',
     role: 'Strategy & Product',
     bio: 'Connects business goals to what we build — positioning, content, and conversion from day one.',
     image: '/team/sora.png',

@@ -3,9 +3,9 @@ import './globals.css'
 import { Providers } from '@/components/providers'
 
 export const metadata: Metadata = {
-  title: 'Trio Studio — We build websites',
+  title: 'Dev Stack — We build websites',
   description:
-    'Maya, Devon, and Sora are a three-person web studio. Design, engineering, and strategy for founders and growing brands.',
+    'Oliver, Kieran, and Jayden are a three-person web studio. Design, engineering, and strategy for founders and growing brands.',
 }
 
 export default function RootLayout({
