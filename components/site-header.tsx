@@ -1,12 +1,13 @@
 'use client'
 
+import NextLink from 'next/link'
 import { Stack, Text, Button } from '@primer/react'
 import { CodeSquareIcon } from '@primer/octicons-react'
 
 const links = [
-  { label: 'Work', href: '#work' },
-  { label: 'Services', href: '#services' },
-  { label: 'Team', href: '#team' },
+  { label: 'Work', href: '/#work' },
+  { label: 'Services', href: '/#services' },
+  { label: 'Team', href: '/#team' },
 ]
 
 export function SiteHeader() {
@@ -28,10 +29,18 @@ export function SiteHeader() {
           justify="space-between"
           gap="normal"
         >
-          <Stack direction="horizontal" align="center" gap="condensed">
-            <CodeSquareIcon size={24} />
-            <Text style={{ fontWeight: 600, fontSize: 18 }}>Dev Stack</Text>
-          </Stack>
+          <NextLink
+            href="/"
+            style={{
+              textDecoration: 'none',
+              color: 'var(--fgColor-default)',
+            }}
+          >
+            <Stack direction="horizontal" align="center" gap="condensed">
+              <CodeSquareIcon size={24} />
+              <Text style={{ fontWeight: 600, fontSize: 18 }}>Dev Stack</Text>
+            </Stack>
+          </NextLink>
 
           <Stack
             direction="horizontal"

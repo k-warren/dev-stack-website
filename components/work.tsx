@@ -1,45 +1,9 @@
 'use client'
 
+import NextLink from 'next/link'
 import { Heading, Text, Stack, Label, Link } from '@primer/react'
 import { ArrowUpRightIcon } from '@primer/octicons-react'
-
-type Project = {
-  name: string
-  category: string
-  description: string
-  year: string
-}
-
-const projects: Project[] = [
-  {
-    name: 'Northwind Coffee',
-    category: 'E-commerce',
-    description:
-      'A headless storefront and subscription flow for a specialty roaster, up 38% in checkout conversion.',
-    year: '2025',
-  },
-  {
-    name: 'Lumen Health',
-    category: 'Marketing site',
-    description:
-      'Brand refresh and Next.js rebuild for a telehealth startup ahead of their Series A.',
-    year: '2025',
-  },
-  {
-    name: 'Fieldnote',
-    category: 'Web app',
-    description:
-      'Design system and dashboard for a field-research SaaS used by 12k scientists.',
-    year: '2024',
-  },
-  {
-    name: 'Atlas Type',
-    category: 'Portfolio',
-    description:
-      'An interactive type foundry showcase with live font previews and instant licensing.',
-    year: '2024',
-  },
-]
+import { caseStudies } from '@/lib/case-studies'
 
 export function Work() {
   return (
@@ -70,9 +34,9 @@ export function Work() {
               gap: 16,
             }}
           >
-            {projects.map((project) => (
+            {caseStudies.map((project) => (
               <div
-                key={project.name}
+                key={project.slug}
                 style={{
                   backgroundColor: 'var(--bgColor-default)',
                   border:
@@ -102,7 +66,8 @@ export function Work() {
                     </Text>
                   </Stack>
                   <Link
-                    href="#contact"
+                    as={NextLink}
+                    href={`/work/${project.slug}`}
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
