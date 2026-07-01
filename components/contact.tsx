@@ -85,6 +85,7 @@ export function Contact() {
                       block
                       rows={5}
                       placeholder="What are you building, and what do you need help with?"
+                      resize="none"
                     />
                   </FormControl>
                   <Stack direction="horizontal" justify="end">
