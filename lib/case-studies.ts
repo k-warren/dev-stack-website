@@ -17,69 +17,69 @@ export type CaseStudy = {
 
 export const caseStudies: CaseStudy[] = [
   {
-    slug: 'unit-cladding', /*Need to update the information below to match the new case study*/
+    slug: 'unit-cladding',
     name: 'Unit Cladding',
     category: 'Construction',
     year: '2025',
     description:
-      'A headless storefront and subscription flow for a specialty roaster, up 38% in checkout conversion.',
+      'A modern, high-performance website showcasing Unit Cladding’s expertise, completed projects, and services.',
     summary:
-      'We rebuilt Unit Cladding as a headless commerce experience, pairing a fast Next.js storefront with a frictionless subscription flow that turned one-time buyers into recurring customers.',
+      'We redesigned and developed the Unit Cladding website using Next.js, creating a fast, responsive experience that showcases the company’s capabilities, highlights completed projects, and makes it easy for potential clients to get in touch.',
     client: 'Unit Cladding',
-    services: ['Design', 'Engineering', 'Strategy'],
-    timeline: '10 weeks',
+    services: ['Design', 'Engineering', 'Development'],
+    timeline: '6 weeks',
     results: [
-      { label: 'Checkout conversion', value: '+38%' },
-      { label: 'Subscription signups', value: '2.4x' },
-      { label: 'Page load time', value: '0.9s' },
+      { label: 'PageSpeed score', value: '98/100' },
+      { label: 'Load time', value: '0.8s' },
+      { label: 'Core Web Vitals', value: '100%' },
     ],
     challenge:
-      'Unit Cladding had a loyal local following but a slow, templated storefront that buried its subscription product and leaked customers at checkout. They wanted an experience that felt as crafted as their coffee.',
+      'Unit Cladding needed a modern digital presence that reflected the quality of its work. The previous website lacked clear navigation, showcased very few projects, and did not effectively communicate the company’s expertise or encourage enquiries.',
     approach: [
-      'Audited the existing funnel and identified the three biggest drop-off points in cart and checkout.',
-      'Designed a streamlined subscription builder that lets customers pick roast, grind, and cadence in a single step.',
-      'Built a headless storefront on Next.js with an edge-cached catalog and an instant cart drawer.',
-      'Integrated analytics and post-purchase email so the team could iterate on offers after launch.',
+      'Restructured the site architecture to improve navigation and content discovery.',
+      'Designed a clean, professional interface aligned with the Unit Cladding brand.',
+      'Developed the website in Next.js with responsive layouts, fast performance, and SEO best practices.',
+      'Created dedicated project and service pages with clear calls to action to encourage client enquiries.',
     ],
     outcome:
-      'Within the first quarter, checkout conversion rose 38% and subscription signups more than doubled, giving Unit Cladding predictable recurring revenue for the first time.',
+      'The finished website provides Unit Cladding with a modern online presence that showcases its expertise, improves user experience, performs exceptionally well across devices, and makes it easier for prospective clients to explore services and get in touch.',
     quote: {
-      text: 'The new store finally feels like us. Subscriptions went from an afterthought to our biggest growth channel.',
-      author: 'Dana Okafor',
-      role: 'Founder, Unit Cladding',
-    },
+      text: 'The new website reflects the quality of our work and gives clients a much better understanding of our services and completed projects.',
+      author: 'Olivers Neighbour',
+      role: 'Founder Unit Cladding',
+},
   },
   {
-    slug: 'sy53-live', /*Need to update the information below to match the new case study*/
+    slug: 'sy53-live',
     name: 'SY53 Live',
     category: 'Radio & Podcasting',
     year: '2025',
     description:
-      'Brand refresh and Next.js rebuild for a telehealth startup ahead of their Series A.',
+      'A modern website for an independent radio station, designed to showcase live broadcasts, podcasts, and community content.',
     summary:
-      'Ahead of a Series A raise, Lumen Health needed a marketing site that signaled credibility to investors and clarity to patients. We delivered a full brand refresh and a fast, accessible rebuild.',
+      'We designed and developed a fast, responsive website for SY53 Live, creating a modern platform where listeners can discover live shows, browse podcasts, and stay connected with the station’s latest content.',
     client: 'SY53 Live',
-    services: ['Design', 'Engineering', 'Strategy'],
+    services: ['Design', 'Development', 'Strategy'],
     timeline: '8 weeks',
     results: [
-      { label: 'Demo requests', value: '+62%' },
-      { label: 'Lighthouse score', value: '99' },
-      { label: 'Bounce rate', value: '-27%' },
+      { label: 'PageSpeed score', value: '97/100' },
+      { label: 'Load time', value: '0.9s' },
+      { label: 'Responsive pages', value: '100%' },
     ],
     challenge:
-      'Lumen had outgrown its early DIY site. The messaging was unclear, the visual identity felt clinical, and the page was too slow to convert the traffic from their growing PR push.',
+      'SY53 Live needed a website that reflected the energy of the station while making it easy for listeners to access live broadcasts, explore podcast episodes, and discover new content across any device.',
     approach: [
-      'Reworked positioning around a single, patient-first value proposition.',
-      'Created a warmer brand system with accessible color and type tokens.',
-      'Rebuilt the site on Next.js with server components and optimized media.',
-      'Set up a CMS so the team could publish updates without engineering.',
+      'Created a clean information architecture focused on live radio, podcasts, and station updates.',
+      'Designed a modern interface that reflects the station’s personality and branding.',
+      'Developed the site with Next.js to deliver fast performance, responsive layouts, and strong SEO.',
+      'Integrated streaming links, podcast content, and clear calls to action for listeners and contributors.',
     ],
     outcome:
-      'The refreshed site lifted demo requests by 62% and gave the founders a polished story to bring into investor meetings during their raise.',
+      'The completed website provides SY53 Live with a modern digital presence that is fast, accessible, and easy to maintain, giving listeners a seamless experience across desktop and mobile devices.',
     quote: {
-      text: 'It looked like a company three times our size. That mattered in every investor conversation.',
-      author: 'Priya Nair',
-      role: 'CEO, Lumen Health',
+      text: 'The new website captures the spirit of our station perfectly. It is faster, easier to use, and gives our audience a much better experience.',
+      author: 'Paul Froggat',
+      role: 'Founder SY53 Live',
     },
   }
 ]
